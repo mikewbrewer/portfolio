@@ -6,7 +6,6 @@
 
 body {
   position: absolute;
-  top: 120;
 }
 
 header {
@@ -21,7 +20,7 @@ h1 {
   margin: 1rem;
 }
 
-h2 {
+h2, h3 {
   padding: 15px;
 }
 
@@ -56,6 +55,11 @@ footer {
   margin: 5px;
   background-color: gray;
   height: 290px;
+}
+
+.content {
+  background-color: gray;
+  margin: 1rem;
 }
 
 .project-button {
