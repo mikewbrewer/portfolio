@@ -21,10 +21,11 @@ header nav {
     width: 100%;
     background-color: lightgray;
     height: 40px;
-    
+
 }
 
 nav a {
+    color: black;
     width: 100%;
     padding: 15px 0px 15px 0px;
     text-align: center;
@@ -47,8 +48,28 @@ header h1 {
     height: auto;
 }
 
+.body-2 {
+  background-color: black;
+  height: 400px;
+  transition: height 2s;
+}
+
+.body-2:hover {
+  height: 800px;
+}
+
+.body section:nth-child(2n) {
+  background-color: black;
+  color: white;
+}
+
+.body section:nth-child(2n) a {
+  color: white;
+}
+
 a {
-    text-decoration: none;        
+    text-decoration: none;
+    color: black;
 }
 
 .small-spacer {
@@ -74,7 +95,15 @@ a {
 .project a {
     display: flex;
     justify-content: flex-end;
-    
+
+
+}
+
+.project a:hover {
+    display: flex;
+    justify-content: flex-end;
+
+
 }
 
 a:hover {
